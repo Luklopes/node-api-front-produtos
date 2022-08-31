@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
+        type="text/javascript"></script>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,400,500,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap&subset=latin-ext" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header_rede_social">
+        <div class="container">
+            <h4 class="area_restrita"><a href="">ÁREA RESTRITA <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </h4>
+            <h4 class="boleto "><a href="Boleto">BOLETO BANCÁRIO</a></h4>
+            <div class="icones">
+                <a href=""><i class="fa fa-map-marker " aria-hidden="true"></i></a>
+            </div>
+            <div class="icones">
+                <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <div class="clear"></div>
+            <!---clear-------->
+        </div>
+        <!---container----->
+    </header>
+
+    <section class="sessao1">
+        <form>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h3 class="modal-title" id="myModalLabel"><b>Cadastro</b></h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-body">
+
+                                <div class="form-group">
+                                    <label>Nome</label>
+                                    <input type="text" name="nome" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="text" name="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label>Telefone</label>
+                                    <input type="text" name="telefone" class="form-control" id="telefone">
+                                </div>
+                                <div class="form-group">
+                                    <label>CPF</label>
+                                    <input type="text" name="message" class="form-control" id="cpf">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"
+                                id="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="container ">
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">INSTITUCIONAL</a></li>
+                    <li><a href="news.html">NOTÍCIAS</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                    <li><button type="button" class="btn btn-warning btn-md rounded" data-toggle="modal"
+                            data-target="#myModal">
+                            AGENDE UMA VISITA
+                        </button>
+                    <li>
+
+                </ul>
+            </nav>
+
+            <nav class="menu_mobile">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">INSTITUCIONAL</a></li>
+                    <li><a href="news.html">NOTÍCIAS</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                    <li type="button" class="btn btn-warning btn-md rounded" data-toggle="modal" data-target="#myModal">
+                        <a href="">AGENDE UMA VISITA</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <h4 id="barra">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </h4>
+
+
+            <div class="titulo1">
+                <h1>INSTITUCIONAL</h1>
+            </div>
+
+
+            <div class="clear"></div>
+            <!---clear--->
+        </div>
+        <!---container---->
+    </section>
+
+
+    <section class="sessao2">
+        <div class="container">
+
+            <h3>HOME /</h3>
+            <h3>INSTITUCIONAL /</h3>
+            <h3>MISSÃO </h3>
+
+
+            <div class="clear"></div>
+            <!---clear--->
+        </div>
+        <!---container---->
+    </section>
+
+
+
+    <section class="sessao3">
+        <div class="container">
+
+            <div class="titulo2">
+                <h1>ENSINO INTEGRADO</h1>
+            </div>
+
+            <nav class="menu_sessao3">
+                <ul>
+                    <li><a href="">MISSÃO</a></li>
+                    <li><a href="">HISTÓRIA</a></li>
+                    <li><a href="">ESTRUTURA</a></li>
+                    <li><a href="">ASSESSORIA DE IMPRENSA</a></li>
+                </ul>
+            </nav>
+
+
+            <div id="title3" class="titulo3">
+                <h1>DIFERENCIAIS</h1>
+            </div>
+
+            <div class="w20">
+                <p>
+                    <img class="boneco_correndo" src="images/runing.png" alt="boneco correndo">
+                </p>
+            </div>
+            <!---w20---->
+
+            <div class="w75">
+                <p class="paragrafo1"><a class="destacar">Esportes:</a> Os estudantes da Plan B são fortemente
+                    incentivados a praticar esportes e têm, além das aulas de Educação Física, a chance de participar de
+                    jogos internos e externos, como os Jogos Somos Educação: torneio que reúne as escolas do grupo Somos
+                    para promover a integração e a prática esportiva no ambiente acadêmico. Estão disponíveis duas
+                    quadras cobertas poliesportivas, uma na unidade Ouro Preto e outra na unidade São Paulo, para dias
+                    chuvosos e atividades específicas.</p>
+
+            </div>
+            <!---w70---->
+
+
+            <div class="w20_2">
+                <p>
+                    <img class="boneco_hi" src="images/hi.png" alt="boneco hi">
+                </p>
+            </div>
+            <!---w20---->
+
+            <div class="w75_2">
+
+                <p class="paragrafo2"><a class="destacar">Monitoria presencial:</a> Monitoria presencial: Depois do
+                    período das aulas, os alunos têm à disposição monitores de todas as disciplinas para ajudá-los com
+                    dúvidas, revisão de conteúdos, estudo para provas e resolução de lições de casa. O momento pode ser
+                    aproveitado em cabines individuais ou em espaços de estudo coletivo.</p>
+
+            </div>
+            <!---w72_2---->
+
+
+            <div class="w20">
+                <p>
+                    <img class="tablet" src="images/tablet.png" alt="tabela">
+                </p>
+            </div>
+            <!---w20---->
+
+
+            <div class="w75">
+                <p class="paragrafo3"><a class="destacar">Tecnologia:</a> Além do material pedagógico tradicional
+                    impresso, na Plan B, as aulas também contam com lousas interativas, acesso à internet e livros
+                    digitais.</p>
+
+            </div>
+            <!---w70---->
+
+
+            <div class="w20_2">
+                <p>
+                    <img class="locker" src="images/locker.png" alt="fechadura">
+                </p>
+            </div>
+            <!---w20---->
+
+
+            <div class="w75_2">
+
+                <p class="paragrafo4"><a class="destacar">Segurança:</a> Um dos principais cuidados da Plan B, é
+                    garantir tranquilidade e segurança para nossos alunos, professores e colaboradores. Para isso,
+                    câmeras de monitoramento</p>
+
+            </div>
+            <!---w72_2---->
+
+
+
+            <div class="w20">
+                <p>
+                    <img class="chemical" src="images/chemical.png" alt="porção">
+                </p>
+            </div>
+            <!---w20---->
+
+
+            <div class="w75">
+                <p class="paragrafo5"><a class="destacar">Laboratórios:</a> Cada unidade dispõe de um laboratório para
+                    as aulas de Ciências, Química, Física, Biologia e Matemática.</p>
+
+            </div>
+            <!---w70---->
+
+
+            <div class="w20_2">
+                <p>
+                    <img class="book" src="images/book_apple.png" alt="livro">
+                </p>
+            </div>
+            <!---w20---->
+
+
+
+            <div class="w75_2">
+
+                <p class="paragrafo6"><a class="destacar">Cantinas e restaurantes: </a> Para garantir a alimentação de
+                    nossos alunos, educadores e funcionários, cada unidade conta com um restaurante e lanchonete.
+                    Oferecendo cardápios balanceados e com consultoria nutricional, os pais são bem-vindos para fazerem
+                    refeições com seus filhos.</p>
+
+            </div>
+            <!---w72_2---->
+
+
+            <div class="w20">
+                <p>
+                    <img class="location" src="images/location.png" alt="localização">
+                </p>
+            </div>
+            <!---w20---->
+
+
+            <div class="w75">
+                <p class="paragrafo7"><a class="destacar">Idiomas:</a> Na unidade Jaó, os alunos podem se matricular em
+                    aulas de inglês e espanhol, por meio da parceria com o CNA Idiomas.</p>
+
+            </div>
+            <!---w70---->
+
+
+            <div class="w20_2">
+                <p>
+                    <img class="nurse" src="images/nurse.png" alt=enfermeira>
+                </p>
+            </div>
+            <!---w20---->
+
+
+            <div class="w75_2">
+
+                <p class="paragrafo8"><a class="destacar">Enfermaria:</a> Cada uma das unidades possui uma enfermaria
+                    com profissional formado para atender os alunos, educadores e demais funcionários, durante o período
+                    da manhã, todos os dias. Casos de saúde mais graves, que vão além dos primeiros socorros que podem
+                    ser apresentados na escola, são comunicados aos responsáveis e, caso necessário, receberão
+                    encaminhamento hospitalar.</p>
+
+            </div>
+            <!---w72_2---->
+
+
+            <div class="clear"></div>
+            <!---clear--->
+        </div>
+        <!---container---->
+    </section>
+
+
+    <section class="sessao4">
+        <div class="container">
+
+            <div class="mapa_site">
+                <h5>MAPA DO SITE</h5>
+                <h5 id="sinal_de_mais">[ + ]</h5>
+            </div>
+
+            <div class="clear"></div>
+            <!---clear---->
+        </div>
+        <!---container---->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="w33">
+                <h6>UNIDADE BELO HORIZONTE</h6>
+                <p class="endereço">
+                    Rua Ouro Preto 1.295, - Santo Agostinho
+                    Belo Horizonte/MG
+                </p>
+
+            </div>
+            <!---w33----->
+
+            <div class="clear"></div>
+            <!----clear----->
+        </div>
+        <!---container------>
+    </footer>
+
+    <footer class="footer2">
+        <div class="container">
+            <p class="texto_final">Colégio ... Todos os Direitos reservados - 2021 </p>
+
+            <div class="claer"></div>
+            <!----clear---->
+        </div>
+        <!---container---->
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+            $("h4#barra").click(function () {
+                $("nav.menu_mobile ul").slideToggle("slow");
+            });
+            $("#submit").click(OnSubmitFormCrud);
+        });
+
+        function OnSubmitFormCrud() {
+            var name = $("#name").val()
+            var cpf = $("#cpf").val()
+            var telefone = $("#telefone").val()
+            var email = $("#email").val()
+
+
+            $.ajax({
+                url: "",
+                type: 'post',
+                data: {
+                    nome: name,
+                    cpf: cpf,
+                    telefone: telefone,
+                    email: email
+                },
+                beforeSend: function () {
+                    $("#submit").html("ENVIANDO...");
+                }
+            })
+                .done(function (msg) {
+                    $("#submit").html("Enviar");
+                    console.log(msg)
+                    alert(JSON.stringify(msg.message));
+                })
+                .fail(function (jqXHR, textStatus, msg) {
+                    alert(msg);
+                });
+        }
+
+    </script>
+
+</body>
+
+</html>
